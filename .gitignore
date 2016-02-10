@@ -1,0 +1,6 @@
+.project
+.settings/
+manifest.yml
+target
+.classpath
+.springBeans

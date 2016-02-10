@@ -1,0 +1,268 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>System Metrics</title>
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="./css/angular-chart.min.css">
+
+<script type="text/javascript" src="./js/angular.min.js"></script>
+<script type="text/javascript" src="./js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/underscore-min.js"></script>
+<script type="text/javascript" src="./js/chart.js"></script>
+<script type="text/javascript" src="./js/angular-chart.min.js"></script>
+
+<script type="text/javascript" src="./js/metrics.js"></script>
+</head>
+<body>
+	<div id="metrics" ng-app="metricsApp" ng-controller="metricsCtrl">
+		<loading></loading>
+		<div class="alert alert-danger" role="alert" hidden="true"></div>
+		<h1>Per foundation Data:</h1>
+
+
+		<div>
+
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#home"
+					aria-controls="home" role="tab" data-toggle="tab">Dashboard</a></li>
+				<li role="presentation"><a href="#vmMetrics"
+					aria-controls="vmMetrics" role="tab" data-toggle="tab">VM
+						Metrics</a></li>
+				<li role="presentation"><a href="#orgs" aria-controls="orgs"
+					role="tab" data-toggle="tab">Orgs</a></li>
+				<li role="presentation"><a href="#spaces"
+					aria-controls="spaces" role="tab" data-toggle="tab">Spaces</a></li>
+				<li role="presentation"><a href="#applications"
+					aria-controls="applications" role="tab" data-toggle="tab">Applications</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+
+				<div role="tabpanel" class="tab-pane active" id="home">
+					<p>
+					<div>
+						<span ng-repeat="(index,total) in totallist"
+							class="badge badge-success">{{total.name}}:
+							{{total.value}}</span>
+					</div>
+					</p>
+					<br>
+					
+					<div class="col-lg-6 col-md-10 ng-scope" ng-show="buildpackdata.length">
+								<div class="panel panel-primary">
+									<div class="panel-heading">Buildpack with Apps Count</div>
+									<div class="panel-body">
+										<div class="chart-container">
+											<canvas id="buildpacks-apps"
+												class="chart chart-doughnut"
+												chart-data="buildpackdata"
+												chart-labels="buildpacklabels"></canvas>
+										</div>
+									</div>
+								</div>
+							</div>
+
+					<div ng-repeat="deploymentChart in deploymentChartMap">
+						<div ng-show="deploymentChart.chartMeta.healthydata.length">
+							<div class="col-lg-6 col-md-10 ng-scope">
+								<div class="panel panel-success">
+									<div class="panel-heading">{{deploymentChart.deploymentname}}
+										- Total Running Jobs -
+										{{deploymentChart.chartMeta.healthylabels.length}} - (Running
+										Jobs - Persistence Disk % - CPU Per User %)</div>
+									<div class="panel-body">
+										<div class="chart-container">
+											<canvas id="{{deploymentChart.deploymentname}} - Healthy"
+												class="chart chart-doughnut"
+												chart-data="deploymentChart.chartMeta.healthydata"
+												chart-labels="deploymentChart.chartMeta.healthylabels"></canvas>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div ng-show="deploymentChart.chartMeta.unhealthydata.length">
+							<div class="col-lg-6 col-md-10 ng-scope">
+								<div class="panel panel-danger">
+									<div class="panel-heading">
+										{{deploymentChart.deploymentname}} - Total Failed Jobs -
+										{{deploymentChart.chartMeta.unhealthylabels.length}} - (Failed
+										Jobs - System CPU %)</div>
+									<div class="panel-body">
+										<div class="chart-container">
+											<canvas id="{{deploymentChart.deploymentname}} - UnHealthy"
+												class="chart chart-pie"
+												chart-data="deploymentChart.chartMeta.unhealthydata"
+												chart-labels="deploymentChart.chartMeta.unhealthylabels"></canvas>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane" id="vmMetrics">
+					<div ng-if="vmMetrics">
+						<div collapse-toggler class="toggler">
+							<a href="#"><i class="glyphicon glyphicon-chevron-down"></i>
+								All VM Metrics</a>
+						</div>
+						<div class="table-responsive collapse">
+							<table id="vmMetricsTable" class="table">
+								<thead>
+									<tr>
+										<td>Deployment Name</td>
+										<td>Job Name</td>
+										<td>Job IP</td>
+										<td>Job Index</td>
+										<td>system.healthy</td>
+										<td>system.load.1m</td>
+										<td>system.swap.percent</td>
+										<td>system.swap.kb</td>
+										<td>system.cpu.user</td>
+										<td>system.disk.ephemeral.inode.percent</td>
+										<td>system.disk.ephemeral.percent</td>
+										<td>system.disk.system.percent</td>
+										<td>system.cpu.sys</td>
+										<td>system.disk.persistent.percent</td>
+										<td>system.mem.kb</td>
+										<td>system.cpu.wait</td>
+										<td>system.mem.percent</td>
+										<td>system.disk.system.inode.percent</td>
+										<td>system.disk.persistent.inode.percent</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr
+										ng-repeat="vmMetric in vmMetrics | orderBy:'jobDetail.deployment'">
+										<td>{{vmMetric.jobDetail.deployment}}</td>
+										<td>{{vmMetric.jobDetail.job}}</td>
+										<td>{{vmMetric.jobDetail.ip}}</td>
+										<td>{{vmMetric.jobDetail.index}}</td>
+										<td class="success"
+											ng-if="vmMetric.fixedAttribute.system_healthy == '1.0'">Healthy</td>
+										<td class="danger"
+											ng-if="vmMetric.fixedAttribute.system_healthy != '1.0'">Unhealthy</td>
+										<td>{{vmMetric.fixedAttribute.system_load_1m}}</td>
+										<td>{{vmMetric.fixedAttribute.system_swap_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_swap_kb}}</td>
+										<td>{{vmMetric.fixedAttribute.system_cpu_user}}</td>
+										<td>{{vmMetric.fixedAttribute.system_disk_ephemeral_inode_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_disk_ephemeral_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_disk_system_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_cpu_sys}}</td>
+										<td>{{vmMetric.fixedAttribute.system_disk_persistent_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_mem_kb}}</td>
+										<td>{{vmMetric.fixedAttribute.system_cpu_wait}}</td>
+										<td>{{vmMetric.fixedAttribute.system_mem_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_disk_system_inode_percent}}</td>
+										<td>{{vmMetric.fixedAttribute.system_disk_persistent_inode_percent}}</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div
+						ng-repeat="customJobMetric in customJobMetrics | orderBy:'jobDetail.deployment'">
+						<div collapse-toggler class="toggler">
+							<a href="#"><i class="glyphicon glyphicon-chevron-down"></i>
+								{{customJobMetric.jobDetail.deployment}} |
+								{{customJobMetric.jobDetail.job}} |
+								{{customJobMetric.jobDetail.ip}} |
+								{{customJobMetric.jobDetail.index}}</a>
+						</div>
+						<div class="collapse">
+							<table class="table table-striped table-bordered" cellspacing="0"
+								width="100%">
+								<tr>
+									<td>Attribute Name</td>
+									<td>Attribute Value</td>
+								</tr>
+								<tr ng-repeat="attribute in customJobMetric.customAttributes">
+									<td>{{attribute.name}}</td>
+									<td>{{attribute.value}}</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane" id="orgs">
+					<div ng-if="orgs">
+						<table class="table table-striped table-bordered" cellspacing="0"
+							width="100%">
+							<tr>
+								<td>Org Name</td>
+								<td>Org GUID</td>
+							</tr>
+							<tr ng-repeat="org in orgs | orderBy: 'name'">
+								<td>{{org.name}}</td>
+								<td>{{org.meta.guid}}</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="spaces">
+					<div ng-if="spaces">
+						<table class="table table-striped table-bordered" cellspacing="0"
+							width="100%">
+							<tr>
+
+								<td>Org Name</td>
+								<td>Space Name</td>
+								<td>Space GUID</td>
+								<td>Space URL</td>
+								<td>No of Applications</td>
+								<td>No of Application Instances</td>
+							</tr>
+							<tr ng-repeat="space in spaces | orderBy: 'organization.name'">
+								<td>{{space.organization.name}}</td>
+								<td>{{space.name}}</td>
+								<td>{{space.meta.guid}}</td>
+								<td>{{space.meta.url}}</td>
+								<td>{{space.number_of_apps}}</td>
+								<td>{{space.number_of_app_instances}}</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div role="tabpanel" class="tab-pane" id="applications">
+					<div ng-if="apps">
+						<table class="table table-striped table-bordered" cellspacing="0"
+							width="100%">
+							<tr>
+								<td>Application Name</td>
+								<td>Application Buildpack</td>
+								<td>Application Instances</td>
+								<td>State</td>
+								<td>Memory</td>
+								<td>Disk Quota</td>
+								<td>Space Name</td>
+								<td>Org Name</td>
+							</tr>
+							<tr ng-repeat="app in apps | orderBy: 'name'">
+								<td class="col-md-4">{{app.name}}</td>
+								<td class="col-md-4">{{app.buildpack}}</td>
+								<td class="col-md-4">{{app.instances}}</td>
+								<td class="col-md-4">{{app.state}}</td>
+								<td class="col-md-4">{{app.memory}}</td>
+								<td class="col-md-4">{{app.diskQuota}}</td>
+								<td class="col-md-4">{{app.space_name}}</td>
+								<td class="col-md-4">{{app.org_name}}</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+---
+security:
+  basic:
+    enabled: false
+  user:
+    name: none
+    password: none
