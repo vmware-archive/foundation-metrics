@@ -159,25 +159,25 @@ var metricsModule = angular
 							})
 
 							if(app.buildpack != null) {
-								if(app.buildpack.indexOf('java') > -1) {
+								if(app.buildpack.indexOf('java') > -1 || app.buildpack.indexOf('Java') > -1) {
 									java += 1;
-								} else if(app.buildpack.indexOf('node') > -1) {
+								} else if(app.buildpack.indexOf('node') > -1 || app.buildpack.indexOf('Node') > -1) {
 									node += 1;
-								} else if(app.buildpack.indexOf('python') > -1) {
+								} else if(app.buildpack.indexOf('python') > -1 || app.buildpack.indexOf('Python') > -1) {
 									python += 1;
-								} else if(app.buildpack.indexOf('go') > -1) {
+								} else if(app.buildpack.indexOf('go') > -1 || app.buildpack.indexOf('Go') > -1) {
 									go += 1;
-								} else if(app.buildpack.indexOf('ruby') > -1) {
+								} else if(app.buildpack.indexOf('ruby') > -1 || app.buildpack.indexOf('Ruby') > -1) {
 									ruby += 1;
-								} else if(app.buildpack.indexOf('null') > -1) {
+								} else if(app.buildpack.indexOf('null') > -1 || app.buildpack.indexOf('Null') > -1) {
 									nullbuildpack += 1;
-								} else if(app.buildpack.indexOf('binary') > -1) {
+								} else if(app.buildpack.indexOf('binary') > -1 || app.buildpack.indexOf('Binary') > -1) {
 									binary += 1;
-								} else if(app.buildpack.indexOf('static') > -1) {
+								} else if(app.buildpack.indexOf('static') > -1 || app.buildpack.indexOf('Static') > -1) {
 									staticfile += 1;
-								} else if(app.buildpack.indexOf('php') > -1) {
+								} else if(app.buildpack.indexOf('php') > -1 || app.buildpack.indexOf('Php') > -1) {
 									php += 1;
-								} else if(app.buildpack.indexOf('tc') > -1) {
+								} else if(app.buildpack.indexOf('tc') > -1 || app.buildpack.indexOf('Tc') > -1) {
 									tcServer += 1;
 								} else {
 									other += 1;
