@@ -1,4 +1,4 @@
-var endpoint = 'http://<domain>';
+var endpoint = 'http://<endpoint>';
 var timeOutInterval = 60000;
 var dataToLoad = 4;
 
@@ -129,6 +129,66 @@ var metricsModule = angular
 						});
 					}
 
+					$scope.parseAppData = function() {
+						var java = 0;
+						var node = 0;
+						var python = 0;
+						var go = 0;
+						var ruby = 0;
+						var nullbuildpack = 0;
+						var binary = 0;
+						var staticfile = 0;
+						var php = 0;
+						var tcServer = 0;
+						var other = 0;
+
+						_.each($scope.apps, function(app) {
+							_.find($scope.spaces, function(space) {
+								if(app.spaceGUID === space.meta.guid) {
+									app.space_name = space.name;
+									app.org_name = space.organization.name;
+									if(isNaN(space.number_of_apps)) {
+										space.number_of_apps = 0;
+									}
+									if(isNaN(space.number_of_app_instances)) {
+										space.number_of_app_instances = 0;
+									}
+									space.number_of_apps += 1;
+									space.number_of_app_instances += app.instances;
+								}
+							})
+
+							if(app.buildpack != null) {
+								if(app.buildpack.indexOf('java') > -1) {
+									java += 1;
+								} else if(app.buildpack.indexOf('node') > -1) {
+									node += 1;
+								} else if(app.buildpack.indexOf('python') > -1) {
+									python += 1;
+								} else if(app.buildpack.indexOf('go') > -1) {
+									go += 1;
+								} else if(app.buildpack.indexOf('ruby') > -1) {
+									ruby += 1;
+								} else if(app.buildpack.indexOf('null') > -1) {
+									nullbuildpack += 1;
+								} else if(app.buildpack.indexOf('binary') > -1) {
+									binary += 1;
+								} else if(app.buildpack.indexOf('static') > -1) {
+									staticfile += 1;
+								} else if(app.buildpack.indexOf('php') > -1) {
+									php += 1;
+								} else if(app.buildpack.indexOf('tc') > -1) {
+									tcServer += 1;
+								} else {
+									other += 1;
+								}
+							}
+						});
+
+						$scope.buildpacklabels = ["java-buildpack", "nodejs-buildpack", "python-buildpack", "go-buildpack", "ruby-buildpack", "null-buildpack", "binary-buildpack", "staticfile-buildpack", "php-buildpack", "tcserver-buildpack", "other"];
+						$scope.buildpackdata = [java, node, python, go, ruby, nullbuildpack, binary, staticfile, php, tcServer, other];
+					}
+
 					var totals = function() {
 						$http.get(endpoint + '/totals').success(
 							function(data) {
@@ -189,6 +249,7 @@ var metricsModule = angular
 						$http.get(endpoint + '/spaces').success(
 							function(data) {
 								$scope.spaces = data;
+								$scope.parseAppData();
 								dataToLoad--;
 								$scope.turnOffLoading();
 								$timeout(spaces, timeOutInterval);
@@ -205,67 +266,7 @@ var metricsModule = angular
 						$http.get(endpoint + '/apps').success(
 							function(data) {
 								$scope.apps = data;
-
-								var java = 0;
-								var node = 0;
-								var python = 0;
-								var go = 0;
-								var ruby = 0;
-								var nullbuildpack = 0;
-								var binary = 0;
-								var staticfile = 0;
-								var php = 0;
-								var tcServer = 0;
-								var other = 0;
-
-								_.each($scope.apps, function(app) {
-									_.find($scope.spaces, function(space) {
-										if(app.spaceGUID === space.meta.guid) {
-											app.space_name = space.name;
-											app.org_name = space.organization.name;
-											if(isNaN(space.number_of_apps)) {
-												space.number_of_apps = 0;
-											}
-											if(isNaN(space.number_of_app_instances)) {
-												space.number_of_app_instances = 0;
-											}
-											space.number_of_apps += 1;
-											space.number_of_app_instances += app.instances;
-										}
-									})
-
-									if(app.buildpack != null) {
-										if(app.buildpack.indexOf('java') > -1) {
-											java += 1;
-										} else if(app.buildpack.indexOf('node') > -1) {
-											node += 1;
-										} else if(app.buildpack.indexOf('python') > -1) {
-											python += 1;
-										} else if(app.buildpack.indexOf('go') > -1) {
-											go += 1;
-										} else if(app.buildpack.indexOf('ruby') > -1) {
-											ruby += 1;
-										} else if(app.buildpack.indexOf('null') > -1) {
-											nullbuildpack += 1;
-										} else if(app.buildpack.indexOf('binary') > -1) {
-											binary += 1;
-										} else if(app.buildpack.indexOf('static') > -1) {
-											staticfile += 1;
-										} else if(app.buildpack.indexOf('php') > -1) {
-											php += 1;
-										} else if(app.buildpack.indexOf('tc') > -1) {
-											tcServer += 1;
-										} else {
-											other += 1;
-										}
-									}
-								});
-
-								dataToLoad--;
-								$scope.turnOffLoading();
-
-								$scope.buildpacklabels = ["java-buildpack", "nodejs-buildpack", "python-buildpack", "go-buildpack", "ruby-buildpack", "null-buildpack", "binary-buildpack", "statisfile-buildpack", "php-buildpack", "tcserver-buildpack", "other"];
-								$scope.buildpackdata = [java, node, python, go, ruby, nullbuildpack, binary, staticfile, php, tcServer, other];
+								$scope.parseAppData();
 
 								$timeout(apps, timeOutInterval);
 							}).error(
