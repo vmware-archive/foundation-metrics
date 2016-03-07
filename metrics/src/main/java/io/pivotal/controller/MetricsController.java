@@ -12,7 +12,7 @@ import io.pivotal.domain.Metrics;
 import io.pivotal.service.MetricService;
 
 @RestController
-@RequestMapping("/metrics")
+@RequestMapping(value = "metrics")
 public class MetricsController {
 	@Autowired
 	MetricService metricService;

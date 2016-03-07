@@ -10,7 +10,7 @@ import io.pivotal.domain.Users;
 import io.pivotal.service.UserService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value = "users")
 public class UserController {
 
 	@Autowired

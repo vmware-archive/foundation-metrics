@@ -1,0 +1,3 @@
+diego_cell,opentsdb.nozzle.rep.CapacityTotalMemory|opentsdb.nozzle.rep.CapacityRemainingMemory,30,The total percentage of memory remaining on Diego Cells is
+uaa,opentsdb.nozzle.uaa.audit_service.user_authentication_count|opentsdb.nozzle.uaa.audit_service.user_authentication_failure_count,10,The total percentage of user authentication requests failure is
+router,opentsdb.nozzle.router__0.responses.5xx,5,The total number of 5XX errors is

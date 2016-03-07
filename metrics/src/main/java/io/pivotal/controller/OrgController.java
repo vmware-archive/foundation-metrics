@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.pivotal.service.OrgService;
 
 @RestController
-@RequestMapping("/orgs")
+@RequestMapping(value = "orgs")
 public class OrgController {
 	@Autowired
 	OrgService orgService;
