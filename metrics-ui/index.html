@@ -19,8 +19,10 @@
 	<div id="metrics" ng-app="metricsApp" ng-controller="metricsCtrl">
 		<loading></loading>
 		<div class="alert alert-danger" role="alert" hidden="true"></div>
-		<h1>Per PCF Deployment:</h1>
 
+		<div>
+			<h3>Per PCF Deployment</h3>
+		</div>
 
 		<div>
 
@@ -37,6 +39,9 @@
 					aria-controls="spaces" role="tab" data-toggle="tab">Spaces</a></li>
 				<li role="presentation"><a href="#applications"
 					aria-controls="applications" role="tab" data-toggle="tab">Applications</a></li>
+				<li role="presentation"><a href="#settings"
+					aria-controls="settings" role="tab" data-toggle="tab"
+					ng-click="getSettings()">Settings</a></li>
 			</ul>
 
 			<!-- Tab panes -->
@@ -52,19 +57,18 @@
 					</p>
 					<br>
 
-					<div class="col-lg-6 col-md-10 ng-scope" ng-show="buildpackdata.length">
-								<div class="panel panel-primary">
-									<div class="panel-heading">Buildpack with Apps Count</div>
-									<div class="panel-body">
-										<div class="chart-container">
-											<canvas id="buildpacks-apps"
-												class="chart chart-doughnut"
-												chart-data="buildpackdata"
-												chart-labels="buildpacklabels"></canvas>
-										</div>
-									</div>
+					<div class="col-lg-6 col-md-10 ng-scope"
+						ng-show="buildpackdata.length">
+						<div class="panel panel-primary">
+							<div class="panel-heading">Buildpack with Apps Count</div>
+							<div class="panel-body">
+								<div class="chart-container">
+									<canvas id="buildpacks-apps" class="chart chart-doughnut"
+										chart-data="buildpackdata" chart-labels="buildpacklabels"></canvas>
 								</div>
 							</div>
+						</div>
+					</div>
 
 					<div ng-repeat="deploymentChart in deploymentChartMap">
 						<div ng-show="deploymentChart.chartMeta.healthydata.length">
@@ -260,9 +264,51 @@
 						</table>
 					</div>
 				</div>
-			</div>
-		</div>
+				<div role="tabpanel" class="tab-pane" id="settings">
+					<div ng-if="mail">
+						<h2>Email Settings</h2>
 
-	</div>
+						<form class="form-horizontal" role="form" ng-submit="saveEmail()">
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="toEmail">To
+									Email Addresses:</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" ng-model="mail.toAddr">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="replyToemail">Reply
+									To Address:</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control"
+										ng-model="mail.replyToAddr">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="subject">Subject:</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" ng-model="mail.subject">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="enableEmail">Enable
+									Email Notifications?</label>
+								<div class="col-sm-10">
+									<input type="checkbox" class="form-control"
+										ng-model="mail.emailEnabled">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button class="btn btn-primary" ng-click="saveEmail">Save</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
 </body>
 </html>
