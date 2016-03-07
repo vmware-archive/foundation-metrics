@@ -4,7 +4,7 @@ Metrics Rest endpoint
 
 Rest endpoint to gather the metrics from cloud controller and Ops Metrics
 
-- Create a cf service account user, using cf cli
+- Create a cf service account user
 - Assign the `cloud_controller.admin` privileges to the service account user, using the uaac cli
 - Use the following manifest, and update the values accordingly
 
@@ -23,6 +23,13 @@ applications:
     cf.target: https://<api-endpoint>
     cf.username: <service-account-user>
     cf.password: <service-account-password>
+    mail.protocol: smtp
+    mail.host: <smtp-host>
+    mail.port: <smtp-port>
+    mail.username: <smtp-user>
+    mail.password: <smtp-password>
+    mail.starttls: true
+    mail.auth: true
 
 ```
 
