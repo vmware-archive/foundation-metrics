@@ -30,6 +30,7 @@ applications:
     mail.password: <smtp-password>
     mail.starttls: true
     mail.auth: true
+    JBP_CONFIG_CONTAINER_CERTIFICATE_TRUST_STORE: '{enabled: true}'
 
 ```
 
