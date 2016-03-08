@@ -40,9 +40,7 @@ public class Scheduler {
 	@PostConstruct
 	public void readRules() {
 		try {
-			InputStream inputStream = Scheduler.class.getClassLoader().getResourceAsStream("rules.csv");
-			Reader in = new InputStreamReader(inputStream);
-			BufferedReader br = new BufferedReader(in);
+			BufferedReader br = getBufferedReader();
 			String rule = "";
 			while (br.ready() && (rule = br.readLine()) != null) {
 				String[] ruleDetails = rule.split("\\,");
@@ -73,6 +71,13 @@ public class Scheduler {
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
 		}
+	}
+
+	BufferedReader getBufferedReader() {
+		InputStream inputStream = Scheduler.class.getClassLoader().getResourceAsStream("rules.csv");
+		Reader in = new InputStreamReader(inputStream);
+		BufferedReader br = new BufferedReader(in);
+		return br;
 	}
 
 	@Scheduled(fixedDelay = 60000)

@@ -26,10 +26,10 @@ public class SpringConfiguration {
 			@Value("${jmx.port}") String port, @Value("${jmx.username}") String username,
 			@Value("${jmx.password}") String password) {
 
+		MBeanServerConnectionFactoryBean factoryBean = new MBeanServerConnectionFactoryBean();
 		port = port != null ? port : "44444";
 		System.out.println("PORT IS " + port);
 
-		MBeanServerConnectionFactoryBean factoryBean = new MBeanServerConnectionFactoryBean();
 		try {
 			String serviceURL = createServiceURL(host, port);
 			factoryBean.setServiceUrl(serviceURL);
@@ -47,7 +47,6 @@ public class SpringConfiguration {
 	@Bean
 	CloudFoundryClient cloudFoundryClient(@Value("${cf.target}") String target,
 			@Value("${cf.username}") String username, @Value("${cf.password}") String password) {
-
 		CloudCredentials credentials = new CloudCredentials(username, password);
 		CloudFoundryClient client = new CloudFoundryClient(credentials, getTargetURL(target), true);
 		client.login();
@@ -55,20 +54,26 @@ public class SpringConfiguration {
 	}
 
 	@Bean
-	public JavaMailSender javaMailSender(@Value("${mail.host}") String host, @Value("${mail.port}") Integer port,
-			@Value("${mail.username}") String username, @Value("${mail.password}") String password,
-			@Value("${mail.starttls}") String starttls, @Value("${mail.auth}") String auth,
-			@Value("${mail.protocol}") String protocol) {
+	public JavaMailSender javaMailSender(@Value("${mail.host:null}") String host,
+			@Value("${mail.port:-1}") Integer port, @Value("${mail.username:null}") String username,
+			@Value("${mail.password:null}") String password, @Value("${mail.starttls:null}") String starttls,
+			@Value("${mail.auth:null}") String auth, @Value("${mail.protocol:smtp}") String protocol) {
 		JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-		Properties mailProperties = new Properties();
-		mailProperties.put("mail.smtp.auth", auth);
-		mailProperties.put("mail.smtp.starttls.enable", starttls);
-		mailSender.setJavaMailProperties(mailProperties);
-		mailSender.setHost(host);
-		mailSender.setPort(port);
-		mailSender.setProtocol(protocol);
-		mailSender.setUsername(username);
-		mailSender.setPassword(password);
+		if (host == null || port == -1) {
+			Properties mailProperties = new Properties();
+			if (auth != null)
+				mailProperties.put("mail.smtp.auth", auth);
+			if (starttls != null)
+				mailProperties.put("mail.smtp.starttls.enable", starttls);
+			mailSender.setJavaMailProperties(mailProperties);
+			mailSender.setHost(host);
+			mailSender.setPort(port);
+			mailSender.setProtocol(protocol);
+			if (username != null && password != null) {
+				mailSender.setUsername(username);
+				mailSender.setPassword(password);
+			}
+		}
 		return mailSender;
 	}
 
