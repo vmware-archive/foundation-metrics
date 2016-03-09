@@ -37,6 +37,8 @@ public class Scheduler {
 
 	Map<String, ArrayList<Rule>> jobRulesMap = new HashMap<>();
 
+	private String errors = "";
+
 	@PostConstruct
 	public void readRules() {
 		try {
@@ -81,7 +83,7 @@ public class Scheduler {
 	}
 
 	@Scheduled(fixedDelay = 60000)
-	public String checkSystemHealth() {
+	public void checkSystemHealth() {
 		StringBuilder errors = new StringBuilder();
 
 		Metrics metrics = metricService.getMetrics();
@@ -102,11 +104,10 @@ public class Scheduler {
 		}
 
 		if (!errors.toString().isEmpty()) {
+			setErrors(errors.toString());
 			System.out.println(errors.toString());
 			emailService.sendEmail(errors.toString());
 		}
-		
-		return errors.toString();
 
 	}
 
@@ -148,6 +149,14 @@ public class Scheduler {
 			}
 		}
 		return errors.toString();
+	}
+
+	public String getErrors() {
+		return errors;
+	}
+
+	public void setErrors(String errors) {
+		this.errors = errors;
 	}
 
 }

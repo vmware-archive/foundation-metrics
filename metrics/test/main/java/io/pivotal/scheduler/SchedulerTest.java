@@ -86,7 +86,8 @@ public class SchedulerTest {
 		when(metrics.getCustomJobMetrics()).thenReturn(customJobMetrics);
 		when(customJobMetric.getCustomAttributes()).thenReturn(attributes);
 
-		String errorMsgs = scheduler.checkSystemHealth();
+		scheduler.checkSystemHealth();
+		String errorMsgs = scheduler.getErrors();
 		assertNotEquals(errorMsgs, null);
 		assertNotEquals(errorMsgs.length(), 0);
 
@@ -114,7 +115,8 @@ public class SchedulerTest {
 		when(metrics.getCustomJobMetrics()).thenReturn(customJobMetrics);
 		when(customJobMetric.getCustomAttributes()).thenReturn(attributes);
 
-		String errorMsgs = scheduler.checkSystemHealth();
+		scheduler.checkSystemHealth();
+		String errorMsgs = scheduler.getErrors();
 		assertNotEquals(errorMsgs, null);
 		assertEquals(errorMsgs.length(), 0);
 
@@ -140,8 +142,9 @@ public class SchedulerTest {
 		when(customJobMetric.getJobDetail()).thenReturn(jobDetail);
 		when(metrics.getCustomJobMetrics()).thenReturn(customJobMetrics);
 		when(customJobMetric.getCustomAttributes()).thenReturn(attributes);
-
-		String errorMsgs = scheduler.checkSystemHealth();
+		
+		scheduler.checkSystemHealth();
+		String errorMsgs = scheduler.getErrors(); 
 		assertNotEquals(errorMsgs, null);
 		assertNotEquals(errorMsgs.length(), 0);
 
@@ -168,7 +171,8 @@ public class SchedulerTest {
 		when(metrics.getCustomJobMetrics()).thenReturn(customJobMetrics);
 		when(customJobMetric.getCustomAttributes()).thenReturn(attributes);
 
-		String errorMsgs = scheduler.checkSystemHealth();
+		scheduler.checkSystemHealth();
+		String errorMsgs = scheduler.getErrors();
 		assertNotEquals(errorMsgs, null);
 		assertEquals(errorMsgs.length(), 0);
 
@@ -200,7 +204,8 @@ public class SchedulerTest {
 		stringBuilder.append(jobDetail.getDeployment()).append(":").append(jobDetail.getJob()).append(":")
 				.append(jobDetail.getIndex()).append(":").append(jobDetail.getIp()).append("\n");
 
-		String errorMsgs = scheduler.checkSystemHealth();
+		scheduler.checkSystemHealth();
+		String errorMsgs = scheduler.getErrors();
 		assertNotEquals(errorMsgs, null);
 		assertNotEquals(errorMsgs.length(), 0);
 		assertEquals(stringBuilder.toString(), errorMsgs);
