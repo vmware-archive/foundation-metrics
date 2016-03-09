@@ -1,4 +1,4 @@
-var endpoint = 'http://<endpoint>';
+var endpoint = 'http://metrics.apps.homelab.io';
 var timeOutInterval = 60000;
 var dataToLoad = 4;
 
