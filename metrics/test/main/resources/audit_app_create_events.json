@@ -1,0 +1,895 @@
+{
+   "total_results": 25,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "fca21a0d-92fa-42d2-a39e-51e54d4d2300",
+            "url": "/v2/events/fca21a0d-92fa-42d2-a39e-51e54d4d2300",
+            "created_at": "2016-02-29T19:49:55Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:49:55Z",
+            "metadata": {
+               "request": {
+                  "name": "apps-manager-green",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+                  "instances": 1,
+                  "memory": 1024,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "buildpack": "ruby_buildpack",
+                  "health_check_timeout": 600,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "aa37b51d-0ef6-4fbf-b8b3-94815ce25846",
+            "url": "/v2/events/aa37b51d-0ef6-4fbf-b8b3-94815ce25846",
+            "created_at": "2016-02-29T19:58:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "b4e09586-044b-418f-9b6c-d194cc1d6740",
+            "actee_type": "app",
+            "actee_name": "66462e00-a7ee-45da-7cf9-142169313b04",
+            "timestamp": "2016-02-29T19:58:46Z",
+            "metadata": {
+               "request": {
+                  "name": "66462e00-a7ee-45da-7cf9-142169313b04",
+                  "space_guid": "17103fe6-198b-4031-aa0d-832841468760",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "17103fe6-198b-4031-aa0d-832841468760",
+            "organization_guid": "6eb2e25b-9940-4490-8376-6c1e671b1a4e"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f580e836-bd96-48ce-ad0e-750e1322662a",
+            "url": "/v2/events/f580e836-bd96-48ce-ad0e-750e1322662a",
+            "created_at": "2016-02-29T20:00:54Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "16d22849-9bc5-430d-8ad5-12bfdfcef18c",
+            "actee_type": "app",
+            "actee_name": "018c06ef-d0cc-432e-6f9c-7ba18511bafc",
+            "timestamp": "2016-02-29T20:00:54Z",
+            "metadata": {
+               "request": {
+                  "name": "018c06ef-d0cc-432e-6f9c-7ba18511bafc",
+                  "space_guid": "a6bfc2d3-207c-474c-9355-697d6183644b",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "a6bfc2d3-207c-474c-9355-697d6183644b",
+            "organization_guid": "8260c43d-1022-49c9-9355-15dccf682137"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d07bbfdb-d547-4d14-8e1b-d1a7bc17550d",
+            "url": "/v2/events/d07bbfdb-d547-4d14-8e1b-d1a7bc17550d",
+            "created_at": "2016-02-29T20:04:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:15Z",
+            "metadata": {
+               "request": {
+                  "name": "app-usage-service",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+                  "instances": 1,
+                  "memory": 1024,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "buildpack": "ruby_buildpack",
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "49ef34a5-7987-4633-922d-820c99462ecb",
+            "url": "/v2/events/49ef34a5-7987-4633-922d-820c99462ecb",
+            "created_at": "2016-02-29T20:04:28Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "620469bf-0a85-4c75-8ae8-c271ddc2a7af",
+            "actee_type": "app",
+            "actee_name": "app-usage-service-scheduler",
+            "timestamp": "2016-02-29T20:04:28Z",
+            "metadata": {
+               "request": {
+                  "name": "app-usage-service-scheduler",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+                  "instances": 1,
+                  "memory": 1024,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "buildpack": "ruby_buildpack",
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "bcb5f44f-c7b3-4a97-91d5-7b36853f2657",
+            "url": "/v2/events/bcb5f44f-c7b3-4a97-91d5-7b36853f2657",
+            "created_at": "2016-02-29T20:04:39Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "627420ac-c576-4a39-8477-f570a6c9a98d",
+            "actee_type": "app",
+            "actee_name": "app-usage-service-worker",
+            "timestamp": "2016-02-29T20:04:39Z",
+            "metadata": {
+               "request": {
+                  "name": "app-usage-service-worker",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+                  "instances": 1,
+                  "memory": 1024,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "buildpack": "ruby_buildpack",
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b2579869-e601-4598-8c58-df8ccf7fe8db",
+            "url": "/v2/events/b2579869-e601-4598-8c58-df8ccf7fe8db",
+            "created_at": "2016-02-29T20:12:56Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "070c93ed-5897-40cc-89d0-631f2e54e958",
+            "actor_type": "user",
+            "actor_name": "admin",
+            "actee": "0fb8284a-4597-466b-8b42-8c012ac5e7c4",
+            "actee_type": "app",
+            "actee_name": "notifications",
+            "timestamp": "2016-02-29T20:12:56Z",
+            "metadata": {
+               "request": {
+                  "name": "notifications",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+                  "instances": 1,
+                  "memory": 64,
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "diego": true,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "a0f119db-d47a-48ce-bfbc-2c5c487e40c3",
+            "url": "/v2/events/a0f119db-d47a-48ce-bfbc-2c5c487e40c3",
+            "created_at": "2016-02-29T20:16:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "070c93ed-5897-40cc-89d0-631f2e54e958",
+            "actor_type": "user",
+            "actor_name": "admin",
+            "actee": "b244335b-a824-404f-b2a4-3d7dcad13e4d",
+            "actee_type": "app",
+            "actee_name": "notifications-ui",
+            "timestamp": "2016-02-29T20:16:45Z",
+            "metadata": {
+               "request": {
+                  "name": "notifications-ui",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+                  "instances": 1,
+                  "memory": 64,
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "diego": true,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "04d50f4f-7a7a-440e-b419-329df956ac63",
+            "url": "/v2/events/04d50f4f-7a7a-440e-b419-329df956ac63",
+            "created_at": "2016-02-29T20:19:52Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "070c93ed-5897-40cc-89d0-631f2e54e958",
+            "actor_type": "user",
+            "actor_name": "admin",
+            "actee": "262b7fdf-c562-4cd5-9ae9-2d249d94001e",
+            "actee_type": "app",
+            "actee_name": "autoscale",
+            "timestamp": "2016-02-29T20:19:52Z",
+            "metadata": {
+               "request": {
+                  "name": "autoscale",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "c0c2517f-452a-4454-9b90-5890d9b1b0a0",
+                  "memory": 256,
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "diego": true,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "c0c2517f-452a-4454-9b90-5890d9b1b0a0",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "037c0946-f254-4f08-a585-6b9172b79016",
+            "url": "/v2/events/037c0946-f254-4f08-a585-6b9172b79016",
+            "created_at": "2016-02-29T22:00:09Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "c0ab95c3-54fd-4e84-82d6-8c5fe6fed054",
+            "actor_type": "user",
+            "actor_name": "MySQLATS-USER-1-2016_02_29-22h00m02.554s",
+            "actee": "413820ae-4cb9-4893-86e6-ee8ce2076c4c",
+            "actee_type": "app",
+            "actee_name": "709ced82-582f-4eff-64e1-e2419362d7cf",
+            "timestamp": "2016-02-29T22:00:09Z",
+            "metadata": {
+               "request": {
+                  "name": "709ced82-582f-4eff-64e1-e2419362d7cf",
+                  "space_guid": "efc32d7d-241b-4bad-9683-a423ac58e30d",
+                  "memory": 256,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "efc32d7d-241b-4bad-9683-a423ac58e30d",
+            "organization_guid": "dad0c10c-bdcc-4312-82ee-d66e3cda31fb"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "74364fd1-fb0a-497d-82e5-9e7f863ed951",
+            "url": "/v2/events/74364fd1-fb0a-497d-82e5-9e7f863ed951",
+            "created_at": "2016-02-29T22:19:23Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "0fbf5e78-94db-4379-88c4-4f9d86bb8362",
+            "actor_type": "user",
+            "actor_name": "p-redis-smoke-tests-USER-1-2016_02_29-22h19m18.506s",
+            "actee": "db128b73-e517-4145-b072-29ea9ea74bbd",
+            "actee_type": "app",
+            "actee_name": "0ada5af3-2b74-4a3a-9d2d-cfa0d1d4be80",
+            "timestamp": "2016-02-29T22:19:23Z",
+            "metadata": {
+               "request": {
+                  "name": "0ada5af3-2b74-4a3a-9d2d-cfa0d1d4be80",
+                  "space_guid": "d17e4e42-b02f-4abf-90bc-4e1d1a742292",
+                  "memory": 256,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "d17e4e42-b02f-4abf-90bc-4e1d1a742292",
+            "organization_guid": "64131385-ea82-4001-877d-5a4f0fc38137"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f27cfc4b-1e81-4b82-affa-5f3a20b55739",
+            "url": "/v2/events/f27cfc4b-1e81-4b82-affa-5f3a20b55739",
+            "created_at": "2016-02-29T22:20:48Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "cfd652fe-f5a0-44e9-b4ba-ca1c68a5a593",
+            "actor_type": "user",
+            "actor_name": "p-redis-smoke-tests-USER-1-2016_02_29-22h19m18.506s",
+            "actee": "b2bff576-2c72-42c1-b651-6c282c651376",
+            "actee_type": "app",
+            "actee_name": "7ced7f4b-18ca-4e65-8bf3-b8b07740e328",
+            "timestamp": "2016-02-29T22:20:48Z",
+            "metadata": {
+               "request": {
+                  "name": "7ced7f4b-18ca-4e65-8bf3-b8b07740e328",
+                  "space_guid": "ef1a8369-38a8-42da-8d25-f66193539685",
+                  "memory": 256,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "ef1a8369-38a8-42da-8d25-f66193539685",
+            "organization_guid": "68b4e297-1565-4d94-bbd9-91ca29ee8c2a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "af567992-a1b0-46bd-a2b3-c70459143a73",
+            "url": "/v2/events/af567992-a1b0-46bd-a2b3-c70459143a73",
+            "created_at": "2016-02-29T23:01:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "875935af-60cb-4614-b83c-1ed1a41f0563",
+            "actor_type": "user",
+            "actor_name": "RiakCSATS-USER-1-2016_02_29-23h00m40.872s",
+            "actee": "9d98738f-32ff-4340-ba57-936a6d339b5a",
+            "actee_type": "app",
+            "actee_name": "d1cb342d-376c-49be-5878-99742fc109cf",
+            "timestamp": "2016-02-29T23:01:17Z",
+            "metadata": {
+               "request": {
+                  "name": "d1cb342d-376c-49be-5878-99742fc109cf",
+                  "space_guid": "dfbe1d7d-7370-413b-b454-f611af432178",
+                  "memory": 256,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "dfbe1d7d-7370-413b-b454-f611af432178",
+            "organization_guid": "19ac8a52-6054-4e6d-84b4-4dd90c7c0a9c"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ba11e5d4-d983-417a-a85d-3daf6898490e",
+            "url": "/v2/events/ba11e5d4-d983-417a-a85d-3daf6898490e",
+            "created_at": "2016-02-29T23:08:48Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "070c93ed-5897-40cc-89d0-631f2e54e958",
+            "actor_type": "user",
+            "actor_name": "admin",
+            "actee": "eeb2b5b7-3586-452a-b40d-57e92d28568a",
+            "actee_type": "app",
+            "actee_name": "spring-cloud-broker",
+            "timestamp": "2016-02-29T23:08:48Z",
+            "metadata": {
+               "request": {
+                  "name": "spring-cloud-broker",
+                  "space_guid": "51e41e00-fc3b-43b1-a173-630400cf5167",
+                  "memory": 1024,
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "51e41e00-fc3b-43b1-a173-630400cf5167",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "6bb4de2b-efdf-445b-9f9f-a302e5c29587",
+            "url": "/v2/events/6bb4de2b-efdf-445b-9f9f-a302e5c29587",
+            "created_at": "2016-02-29T23:09:13Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "070c93ed-5897-40cc-89d0-631f2e54e958",
+            "actor_type": "user",
+            "actor_name": "admin",
+            "actee": "0d662c44-6245-44d5-a66d-c64572d2b28f",
+            "actee_type": "app",
+            "actee_name": "spring-cloud-broker-worker",
+            "timestamp": "2016-02-29T23:09:13Z",
+            "metadata": {
+               "request": {
+                  "name": "spring-cloud-broker-worker",
+                  "space_guid": "51e41e00-fc3b-43b1-a173-630400cf5167",
+                  "memory": 1024,
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "51e41e00-fc3b-43b1-a173-630400cf5167",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9baea66d-76af-44c8-ad3a-ebb8be75ce4c",
+            "url": "/v2/events/9baea66d-76af-44c8-ad3a-ebb8be75ce4c",
+            "created_at": "2016-03-01T00:01:37Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "589254f9-e501-4c78-afc4-b6545e9a6e03",
+            "actor_type": "user",
+            "actor_name": "MySQLATS-USER-1-2016_03_01-00h01m32.571s",
+            "actee": "0f974d48-6431-4bfa-ab3a-fda52e9e4684",
+            "actee_type": "app",
+            "actee_name": "2ec2281c-7851-4fb9-541d-1d6082ce69f9",
+            "timestamp": "2016-03-01T00:01:37Z",
+            "metadata": {
+               "request": {
+                  "name": "2ec2281c-7851-4fb9-541d-1d6082ce69f9",
+                  "space_guid": "925e0280-2c56-412e-8bcd-6772285e7346",
+                  "memory": 256,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "925e0280-2c56-412e-8bcd-6772285e7346",
+            "organization_guid": "69000fc3-1e5e-4b94-9c60-9c3bcb4366ef"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "67d83fef-a7f3-4114-89ff-67c52fae659b",
+            "url": "/v2/events/67d83fef-a7f3-4114-89ff-67c52fae659b",
+            "created_at": "2016-03-01T00:08:21Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "8c3bda65-4447-4a7a-b4cb-f7985f7d4189",
+            "actor_type": "user",
+            "actor_name": "system_services",
+            "actee": "c8aac598-d2c0-454e-95e5-285779acbe34",
+            "actee_type": "app",
+            "actee_name": "tracker-app",
+            "timestamp": "2016-03-01T00:08:21Z",
+            "metadata": {
+               "request": {
+                  "name": "tracker-app",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "351da7ee-1a2e-491e-b344-79e5bbf752b8",
+                  "instances": 2,
+                  "memory": 1536,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "buildpack": "ruby_buildpack",
+                  "health_check_type": "port",
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "351da7ee-1a2e-491e-b344-79e5bbf752b8",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "98b341c6-9965-4195-98ba-01913f31e3e3",
+            "url": "/v2/events/98b341c6-9965-4195-98ba-01913f31e3e3",
+            "created_at": "2016-03-01T00:09:14Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "8c3bda65-4447-4a7a-b4cb-f7985f7d4189",
+            "actor_type": "user",
+            "actor_name": "system_services",
+            "actee": "9dd2f457-01f0-4064-a543-0f12ea8d2463",
+            "actee_type": "app",
+            "actee_name": "tracker-workers",
+            "timestamp": "2016-03-01T00:09:14Z",
+            "metadata": {
+               "request": {
+                  "name": "tracker-workers",
+                  "command": "PRIVATE DATA HIDDEN",
+                  "space_guid": "351da7ee-1a2e-491e-b344-79e5bbf752b8",
+                  "instances": 1,
+                  "memory": 1024,
+                  "stack_guid": "1bd92686-dc1f-4147-9344-84735eb769ea",
+                  "buildpack": "ruby_buildpack",
+                  "health_check_type": "none",
+                  "health_check_timeout": 180,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "351da7ee-1a2e-491e-b344-79e5bbf752b8",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d119454c-d73a-4252-8b70-8892314a5fcc",
+            "url": "/v2/events/d119454c-d73a-4252-8b70-8892314a5fcc",
+            "created_at": "2016-03-01T00:40:00Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "b608a138-b4eb-4474-9695-d441772ea7eb",
+            "actor_type": "user",
+            "actor_name": "MySQLATS-USER-1-2016_03_01-00h25m02.495s",
+            "actee": "3a3bf8ff-5990-4fe6-ab56-bfeee6e968b3",
+            "actee_type": "app",
+            "actee_name": "a5b7399d-e265-459d-68d4-13890339f5a6",
+            "timestamp": "2016-03-01T00:40:00Z",
+            "metadata": {
+               "request": {
+                  "name": "a5b7399d-e265-459d-68d4-13890339f5a6",
+                  "space_guid": "c400c499-fea6-4e18-97f5-ec8f5906b4da",
+                  "memory": 256,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "c400c499-fea6-4e18-97f5-ec8f5906b4da",
+            "organization_guid": "aba690b7-a096-4c04-943d-835750dc5fe7"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f686a439-6596-474d-8706-31bea0fd49f0",
+            "url": "/v2/events/f686a439-6596-474d-8706-31bea0fd49f0",
+            "created_at": "2016-03-03T15:37:13Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "2ae345ec-c44e-4430-9537-0465defe9c8c",
+            "actor_type": "user",
+            "actor_name": "p-spring-cloud-services",
+            "actee": "433b265e-6e09-4bf9-a4b6-b739a2e1ab17",
+            "actee_type": "app",
+            "actee_name": "config-26c80fe9-caa0-4103-8895-e65b6da7faac",
+            "timestamp": "2016-03-03T15:37:13Z",
+            "metadata": {
+               "request": {
+                  "memory": 1024,
+                  "instances": 1,
+                  "health_check_timeout": 180,
+                  "name": "config-26c80fe9-caa0-4103-8895-e65b6da7faac",
+                  "state": "STOPPED",
+                  "space_guid": "87afb31e-463a-46c8-9c45-d57d13a24a93",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "production": false
+               }
+            },
+            "space_guid": "87afb31e-463a-46c8-9c45-d57d13a24a93",
+            "organization_guid": "f4754b35-74e6-4b51-8371-0f47f7669fab"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "a38bed68-0ec7-4ec8-b433-1debf40cbe92",
+            "url": "/v2/events/a38bed68-0ec7-4ec8-b433-1debf40cbe92",
+            "created_at": "2016-03-03T16:29:50Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "01506160-90c5-4a95-8d59-06eab34ef788",
+            "actor_type": "user",
+            "actor_name": "rjain@pivotal.io",
+            "actee": "687f4547-47a8-4ab9-9189-ae82fd8644f9",
+            "actee_type": "app",
+            "actee_name": "metrics",
+            "timestamp": "2016-03-03T16:29:50Z",
+            "metadata": {
+               "request": {
+                  "name": "metrics",
+                  "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+                  "memory": 1024,
+                  "buildpack": "java_buildpack_offline",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "organization_guid": "8f27e65d-8e2a-4d74-8c79-502ceb2ed5e3"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e8da6af7-8d9c-4b89-8e48-c988bea19fa3",
+            "url": "/v2/events/e8da6af7-8d9c-4b89-8e48-c988bea19fa3",
+            "created_at": "2016-03-03T17:02:39Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "01506160-90c5-4a95-8d59-06eab34ef788",
+            "actor_type": "user",
+            "actor_name": "rjain@pivotal.io",
+            "actee": "af2fa230-2f48-498a-9034-380c6b09e63f",
+            "actee_type": "app",
+            "actee_name": "metrics-ui",
+            "timestamp": "2016-03-03T17:02:39Z",
+            "metadata": {
+               "request": {
+                  "name": "metrics-ui",
+                  "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+                  "memory": 1024,
+                  "buildpack": "staticfile_buildpack",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "organization_guid": "8f27e65d-8e2a-4d74-8c79-502ceb2ed5e3"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5f395ffa-b37f-406d-8299-5357eb164ec0",
+            "url": "/v2/events/5f395ffa-b37f-406d-8299-5357eb164ec0",
+            "created_at": "2016-03-04T18:53:10Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "30add770-a356-4c43-a1fa-3d808a42ae69",
+            "actor_type": "user",
+            "actor_name": "MySQLATS-USER-1-2016_03_04-18h52m47.114s",
+            "actee": "ac8892bd-113a-4cd4-b786-fff01839c542",
+            "actee_type": "app",
+            "actee_name": "c1bba0ed-484b-4a36-5f7f-61400b2379d1",
+            "timestamp": "2016-03-04T18:53:10Z",
+            "metadata": {
+               "request": {
+                  "name": "c1bba0ed-484b-4a36-5f7f-61400b2379d1",
+                  "space_guid": "6509dc21-20a4-49ed-a324-a7daaa037332",
+                  "memory": 256,
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "6509dc21-20a4-49ed-a324-a7daaa037332",
+            "organization_guid": "ff90c275-a42a-46c1-a750-f897db35a08b"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e6e7fa0c-67bd-42c8-9862-601e45ab71aa",
+            "url": "/v2/events/e6e7fa0c-67bd-42c8-9862-601e45ab71aa",
+            "created_at": "2016-03-05T18:26:56Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "01506160-90c5-4a95-8d59-06eab34ef788",
+            "actor_type": "user",
+            "actor_name": "rjain@pivotal.io",
+            "actee": "2f47f552-553b-4250-8ea2-1c3583493380",
+            "actee_type": "app",
+            "actee_name": "metrics",
+            "timestamp": "2016-03-05T18:26:56Z",
+            "metadata": {
+               "request": {
+                  "name": "metrics",
+                  "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+                  "memory": 1024,
+                  "buildpack": "java_buildpack_offline",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "organization_guid": "8f27e65d-8e2a-4d74-8c79-502ceb2ed5e3"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ec6a5f50-d8b8-41d0-a305-afe5ce29159c",
+            "url": "/v2/events/ec6a5f50-d8b8-41d0-a305-afe5ce29159c",
+            "created_at": "2016-03-05T18:29:12Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.create",
+            "actor": "01506160-90c5-4a95-8d59-06eab34ef788",
+            "actor_type": "user",
+            "actor_name": "rjain@pivotal.io",
+            "actee": "d10bd0b9-e396-4b1e-a1ad-0101fbbbffa5",
+            "actee_type": "app",
+            "actee_name": "metrics",
+            "timestamp": "2016-03-05T18:29:12Z",
+            "metadata": {
+               "request": {
+                  "name": "metrics",
+                  "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+                  "memory": 1024,
+                  "buildpack": "java_buildpack_offline",
+                  "environment_json": "PRIVATE DATA HIDDEN",
+                  "console": false,
+                  "docker_credentials_json": "PRIVATE DATA HIDDEN",
+                  "health_check_type": "port",
+                  "instances": 1,
+                  "production": false,
+                  "state": "STOPPED"
+               }
+            },
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "organization_guid": "8f27e65d-8e2a-4d74-8c79-502ceb2ed5e3"
+         }
+      }
+   ]
+}

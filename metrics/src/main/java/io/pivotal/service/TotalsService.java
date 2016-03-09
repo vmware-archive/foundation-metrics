@@ -50,9 +50,9 @@ public class TotalsService {
 		totals.add(new Total("Total App Create Events", eventService.getTotalAppCreateEvents()));
 		totals.add(new Total("Total App Delete Events", eventService.getTotalAppDeleteEvents()));
 		totals.add(new Total("Total App Authorized SSH Events", eventService.getTotalAuthorizedSSHEvents()));
-		totals.add(new Total("Total App UnAuthorized SSH Events", eventService.getTotaUnAuthorizedSSHEvents()));
+		totals.add(new Total("Total App UnAuthorized SSH Events", eventService.getTotalUnAuthorizedSSHEvents()));
 		totals.add(new Total("Total App Start Events", eventService.getTotalAppStartEvents()));
-		totals.add(new Total("Total App Stop Events", eventService.getTotalAppStartEvents()));
+		totals.add(new Total("Total App Stop Events", eventService.getTotalAppStopEvents()));
 		totals.add(new Total("Total App Update Events", eventService.getTotalAppUpdateEvents()));
 		totals.add(new Total("Total App Crash Events", eventService.getTotalAppCrashEvents()));
 

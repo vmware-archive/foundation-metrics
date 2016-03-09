@@ -1,6 +1,5 @@
 package io.pivotal.controller;
 
-import java.util.Date;
 import java.util.List;
 
 import org.cloudfoundry.client.lib.domain.CloudOrganization;
@@ -21,9 +20,7 @@ public class OrgController {
 	@CrossOrigin
 	@RequestMapping(method = RequestMethod.GET)
 	public List<CloudOrganization> getOrgs() {
-		System.out.println("Got a request - " + new Date());
 		List<CloudOrganization> orgs = orgService.getOrgs();
-		System.out.println("Sending response - " + new Date());
 		return orgs;
 	}
 }

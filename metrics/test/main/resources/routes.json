@@ -1,0 +1,255 @@
+{
+   "total_results": 13,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "11cc9fc0-9d81-409d-94d6-a1fee3445f51",
+            "url": "/v2/routes/11cc9fc0-9d81-409d-94d6-a1fee3445f51",
+            "created_at": "2016-02-29T19:49:55Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "apps-temp",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "apps_url": "/v2/routes/11cc9fc0-9d81-409d-94d6-a1fee3445f51/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "60e834b9-d0f6-4558-a04c-85ee1050616d",
+            "url": "/v2/routes/60e834b9-d0f6-4558-a04c-85ee1050616d",
+            "created_at": "2016-02-29T19:56:03Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "console",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "apps_url": "/v2/routes/60e834b9-d0f6-4558-a04c-85ee1050616d/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "3a6f02ea-4fe4-4a48-810a-274d3c7afcda",
+            "url": "/v2/routes/3a6f02ea-4fe4-4a48-810a-274d3c7afcda",
+            "created_at": "2016-02-29T19:56:03Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "apps",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "apps_url": "/v2/routes/3a6f02ea-4fe4-4a48-810a-274d3c7afcda/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "973e5dfc-6618-449c-9f49-bd333500019a",
+            "url": "/v2/routes/973e5dfc-6618-449c-9f49-bd333500019a",
+            "created_at": "2016-02-29T20:06:31Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "app-usage",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "apps_url": "/v2/routes/973e5dfc-6618-449c-9f49-bd333500019a/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "bc8d4b5e-7dcf-4ef7-b3ce-eaa177fd058a",
+            "url": "/v2/routes/bc8d4b5e-7dcf-4ef7-b3ce-eaa177fd058a",
+            "created_at": "2016-02-29T20:12:56Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "notifications",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+            "apps_url": "/v2/routes/bc8d4b5e-7dcf-4ef7-b3ce-eaa177fd058a/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "3dcb7e2a-4724-4c1e-9fd7-1c7601e3b4a6",
+            "url": "/v2/routes/3dcb7e2a-4724-4c1e-9fd7-1c7601e3b4a6",
+            "created_at": "2016-02-29T20:16:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "notifications-ui",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/7e1385b4-e66b-4ab9-83fd-dba9facee2fe",
+            "apps_url": "/v2/routes/3dcb7e2a-4724-4c1e-9fd7-1c7601e3b4a6/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9f11c620-bbf0-4c01-894e-1bdd35d40290",
+            "url": "/v2/routes/9f11c620-bbf0-4c01-894e-1bdd35d40290",
+            "created_at": "2016-02-29T20:19:52Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "autoscale",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "c0c2517f-452a-4454-9b90-5890d9b1b0a0",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/c0c2517f-452a-4454-9b90-5890d9b1b0a0",
+            "apps_url": "/v2/routes/9f11c620-bbf0-4c01-894e-1bdd35d40290/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "77b2aeb5-80f4-4306-ab9a-284b3ae253ec",
+            "url": "/v2/routes/77b2aeb5-80f4-4306-ab9a-284b3ae253ec",
+            "created_at": "2016-02-29T23:08:48Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "spring-cloud-broker",
+            "path": "",
+            "domain_guid": "3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_guid": "51e41e00-fc3b-43b1-a173-630400cf5167",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_url": "/v2/spaces/51e41e00-fc3b-43b1-a173-630400cf5167",
+            "apps_url": "/v2/routes/77b2aeb5-80f4-4306-ab9a-284b3ae253ec/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "faffa1f4-9ce3-4df1-9272-3ad069d2c60a",
+            "url": "/v2/routes/faffa1f4-9ce3-4df1-9272-3ad069d2c60a",
+            "created_at": "2016-02-29T23:09:13Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "spring-cloud-broker-worker",
+            "path": "",
+            "domain_guid": "3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_guid": "51e41e00-fc3b-43b1-a173-630400cf5167",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_url": "/v2/spaces/51e41e00-fc3b-43b1-a173-630400cf5167",
+            "apps_url": "/v2/routes/faffa1f4-9ce3-4df1-9272-3ad069d2c60a/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "efe7a5ec-ddd8-4de9-84e9-241199faa34c",
+            "url": "/v2/routes/efe7a5ec-ddd8-4de9-84e9-241199faa34c",
+            "created_at": "2016-03-01T00:08:21Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "tracker",
+            "path": "",
+            "domain_guid": "2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_guid": "351da7ee-1a2e-491e-b344-79e5bbf752b8",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/2a3849a3-cec0-47a3-a597-13dd0e7e6c16",
+            "space_url": "/v2/spaces/351da7ee-1a2e-491e-b344-79e5bbf752b8",
+            "apps_url": "/v2/routes/efe7a5ec-ddd8-4de9-84e9-241199faa34c/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b09b51e5-7c85-4c4b-91ca-5754a94c0c0e",
+            "url": "/v2/routes/b09b51e5-7c85-4c4b-91ca-5754a94c0c0e",
+            "created_at": "2016-03-03T15:37:13Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "config-26c80fe9-caa0-4103-8895-e65b6da7faac",
+            "path": "",
+            "domain_guid": "3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_guid": "87afb31e-463a-46c8-9c45-d57d13a24a93",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_url": "/v2/spaces/87afb31e-463a-46c8-9c45-d57d13a24a93",
+            "apps_url": "/v2/routes/b09b51e5-7c85-4c4b-91ca-5754a94c0c0e/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "69dcfc8b-9014-4142-90df-7e422810a9da",
+            "url": "/v2/routes/69dcfc8b-9014-4142-90df-7e422810a9da",
+            "created_at": "2016-03-03T16:29:51Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "metrics",
+            "path": "",
+            "domain_guid": "3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_url": "/v2/spaces/31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "apps_url": "/v2/routes/69dcfc8b-9014-4142-90df-7e422810a9da/apps"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f4423bb6-c9c6-4dc7-a51e-ae3c901d8c2a",
+            "url": "/v2/routes/f4423bb6-c9c6-4dc7-a51e-ae3c901d8c2a",
+            "created_at": "2016-03-03T17:02:39Z",
+            "updated_at": null
+         },
+         "entity": {
+            "host": "metrics-ui",
+            "path": "",
+            "domain_guid": "3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "service_instance_guid": null,
+            "port": 0,
+            "domain_url": "/v2/domains/3312be3c-7cba-4037-9db6-27c79ccf34e9",
+            "space_url": "/v2/spaces/31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "apps_url": "/v2/routes/f4423bb6-c9c6-4dc7-a51e-ae3c901d8c2a/apps"
+         }
+      }
+   ]
+}

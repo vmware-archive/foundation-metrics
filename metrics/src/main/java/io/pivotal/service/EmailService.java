@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
 import io.pivotal.domain.Email;
 
@@ -16,7 +17,7 @@ public class EmailService {
 	private Email email = new Email();
 
 	public void sendEmail(String message) {
-		if (email != null && email.isEmailConfigured()) {
+		if (email != null && email.isEmailConfigured() && !StringUtils.isEmpty(message)) {
 			SimpleMailMessage mailMessage = new SimpleMailMessage();
 			mailMessage.setTo(email.getToAddr());
 			mailMessage.setReplyTo(email.getReplyToAddr());

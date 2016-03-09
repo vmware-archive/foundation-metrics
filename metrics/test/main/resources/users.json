@@ -1,0 +1,195 @@
+{
+   "total_results": 9,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438",
+            "created_at": "2016-02-29T19:49:53Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "push_apps_manager",
+            "spaces_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/spaces",
+            "organizations_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/organizations",
+            "managed_organizations_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/audited_organizations",
+            "managed_spaces_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/managed_spaces",
+            "audited_spaces_url": "/v2/users/b5a4c001-bc82-497f-83f0-383c833a3438/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "created_at": "2016-02-29T19:58:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "smoke_tests",
+            "spaces_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/spaces",
+            "organizations_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/organizations",
+            "managed_organizations_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/audited_organizations",
+            "managed_spaces_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/managed_spaces",
+            "audited_spaces_url": "/v2/users/49104a3f-d0d4-4c95-92ac-067fd8572a3f/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "portal",
+            "url": "/v2/users/portal",
+            "created_at": "2016-02-29T20:06:26Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "spaces_url": "/v2/users/portal/spaces",
+            "organizations_url": "/v2/users/portal/organizations",
+            "managed_organizations_url": "/v2/users/portal/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/portal/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/portal/audited_organizations",
+            "managed_spaces_url": "/v2/users/portal/managed_spaces",
+            "audited_spaces_url": "/v2/users/portal/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "070c93ed-5897-40cc-89d0-631f2e54e958",
+            "url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958",
+            "created_at": "2016-02-29T20:12:55Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "admin",
+            "spaces_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/spaces",
+            "organizations_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/organizations",
+            "managed_organizations_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/audited_organizations",
+            "managed_spaces_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/managed_spaces",
+            "audited_spaces_url": "/v2/users/070c93ed-5897-40cc-89d0-631f2e54e958/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8c3bda65-4447-4a7a-b4cb-f7985f7d4189",
+            "url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189",
+            "created_at": "2016-02-29T20:45:33Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "system_services",
+            "spaces_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/spaces",
+            "organizations_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/organizations",
+            "managed_organizations_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/audited_organizations",
+            "managed_spaces_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/managed_spaces",
+            "audited_spaces_url": "/v2/users/8c3bda65-4447-4a7a-b4cb-f7985f7d4189/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "793478e6-ed5b-4820-a24d-3686b9009b68",
+            "url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68",
+            "created_at": "2016-02-29T22:00:04Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": true,
+            "default_space_guid": null,
+            "username": "system_verification",
+            "spaces_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/spaces",
+            "organizations_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/organizations",
+            "managed_organizations_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/audited_organizations",
+            "managed_spaces_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/managed_spaces",
+            "audited_spaces_url": "/v2/users/793478e6-ed5b-4820-a24d-3686b9009b68/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "2ae345ec-c44e-4430-9537-0465defe9c8c",
+            "url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c",
+            "created_at": "2016-02-29T23:08:20Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "p-spring-cloud-services",
+            "spaces_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/spaces",
+            "organizations_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/organizations",
+            "managed_organizations_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/audited_organizations",
+            "managed_spaces_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/managed_spaces",
+            "audited_spaces_url": "/v2/users/2ae345ec-c44e-4430-9537-0465defe9c8c/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8825d29b-c4e0-46de-4047-cd75899a0fce",
+            "url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce",
+            "created_at": "2016-03-01T01:04:59Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "spaces_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/spaces",
+            "organizations_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/organizations",
+            "managed_organizations_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/audited_organizations",
+            "managed_spaces_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/managed_spaces",
+            "audited_spaces_url": "/v2/users/8825d29b-c4e0-46de-4047-cd75899a0fce/audited_spaces"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "01506160-90c5-4a95-8d59-06eab34ef788",
+            "url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788",
+            "created_at": "2016-03-01T01:04:59Z",
+            "updated_at": null
+         },
+         "entity": {
+            "admin": false,
+            "active": false,
+            "default_space_guid": null,
+            "username": "rjain@pivotal.io",
+            "spaces_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/spaces",
+            "organizations_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/organizations",
+            "managed_organizations_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/managed_organizations",
+            "billing_managed_organizations_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/billing_managed_organizations",
+            "audited_organizations_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/audited_organizations",
+            "managed_spaces_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/managed_spaces",
+            "audited_spaces_url": "/v2/users/01506160-90c5-4a95-8d59-06eab34ef788/audited_spaces"
+         }
+      }
+   ]
+}

@@ -1,0 +1,1258 @@
+{
+   "total_results": 229,
+   "total_pages": 5,
+   "prev_url": null,
+   "next_url": "/v2/events?order-direction=asc&page=2&q=type:audit.app.update&results-per-page=50",
+   "resources": [
+      {
+         "metadata": {
+            "guid": "d0a12d4e-90c7-415d-abdf-65207d13aa62",
+            "url": "/v2/events/d0a12d4e-90c7-415d-abdf-65207d13aa62",
+            "created_at": "2016-02-29T19:49:55Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:49:55Z",
+            "metadata": {
+               "request": {
+                  "route": "11cc9fc0-9d81-409d-94d6-a1fee3445f51"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d4e5d24d-2525-459a-870c-184c29193c33",
+            "url": "/v2/events/d4e5d24d-2525-459a-870c-184c29193c33",
+            "created_at": "2016-02-29T19:50:14Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:14Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c1b1a160-272b-47f2-b184-41c260e1e40f",
+            "url": "/v2/events/c1b1a160-272b-47f2-b184-41c260e1e40f",
+            "created_at": "2016-02-29T19:50:14Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:14Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d67fd939-0462-4e60-ba3f-e8e27e47a119",
+            "url": "/v2/events/d67fd939-0462-4e60-ba3f-e8e27e47a119",
+            "created_at": "2016-02-29T19:50:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:15Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "716fb93a-821e-44c5-9cba-943aaa391c5b",
+            "url": "/v2/events/716fb93a-821e-44c5-9cba-943aaa391c5b",
+            "created_at": "2016-02-29T19:50:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:15Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "cd2c0cd0-67c9-4659-b43a-b90b1c03af10",
+            "url": "/v2/events/cd2c0cd0-67c9-4659-b43a-b90b1c03af10",
+            "created_at": "2016-02-29T19:50:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:15Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "1c0ad8de-818a-4a07-b36c-2f9f554f9f78",
+            "url": "/v2/events/1c0ad8de-818a-4a07-b36c-2f9f554f9f78",
+            "created_at": "2016-02-29T19:50:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:15Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5319d85c-a284-40ab-9558-3c9aa3427dcd",
+            "url": "/v2/events/5319d85c-a284-40ab-9558-3c9aa3427dcd",
+            "created_at": "2016-02-29T19:50:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:15Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d1dd265e-260f-4e31-8a28-a8cb967d8a78",
+            "url": "/v2/events/d1dd265e-260f-4e31-8a28-a8cb967d8a78",
+            "created_at": "2016-02-29T19:50:16Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:16Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8fa856ff-969a-444e-84e9-4789c118ce0f",
+            "url": "/v2/events/8fa856ff-969a-444e-84e9-4789c118ce0f",
+            "created_at": "2016-02-29T19:50:16Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:16Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c377132c-a9ce-4444-8854-cc15144ff995",
+            "url": "/v2/events/c377132c-a9ce-4444-8854-cc15144ff995",
+            "created_at": "2016-02-29T19:50:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:17Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "fdc85049-8cd5-4f69-9f49-cf924d041b09",
+            "url": "/v2/events/fdc85049-8cd5-4f69-9f49-cf924d041b09",
+            "created_at": "2016-02-29T19:50:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:17Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "20546f5e-c11b-4952-be74-4a5a3da9453b",
+            "url": "/v2/events/20546f5e-c11b-4952-be74-4a5a3da9453b",
+            "created_at": "2016-02-29T19:50:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:17Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c39a6889-e558-4b12-b0d4-6c681ab26e2c",
+            "url": "/v2/events/c39a6889-e558-4b12-b0d4-6c681ab26e2c",
+            "created_at": "2016-02-29T19:50:17Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:17Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "cbf2363a-de2a-4adb-a3bf-0a5d36a8309c",
+            "url": "/v2/events/cbf2363a-de2a-4adb-a3bf-0a5d36a8309c",
+            "created_at": "2016-02-29T19:50:18Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:18Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e3412777-2086-499f-8880-bc3087d5b40a",
+            "url": "/v2/events/e3412777-2086-499f-8880-bc3087d5b40a",
+            "created_at": "2016-02-29T19:50:18Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:18Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "29a73a97-25f1-4ffc-b1ba-83fb8571520c",
+            "url": "/v2/events/29a73a97-25f1-4ffc-b1ba-83fb8571520c",
+            "created_at": "2016-02-29T19:50:18Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:18Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "297cc7a5-68a0-41b7-997c-a89ce58a78b3",
+            "url": "/v2/events/297cc7a5-68a0-41b7-997c-a89ce58a78b3",
+            "created_at": "2016-02-29T19:50:18Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:18Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "53d9f181-4739-4105-ac42-67973c88b711",
+            "url": "/v2/events/53d9f181-4739-4105-ac42-67973c88b711",
+            "created_at": "2016-02-29T19:50:19Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:19Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "6e99a99c-fe91-4d5c-8c42-4bf654b4a119",
+            "url": "/v2/events/6e99a99c-fe91-4d5c-8c42-4bf654b4a119",
+            "created_at": "2016-02-29T19:50:19Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:19Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "4f6c99f3-abf1-4396-b334-651b8160a26a",
+            "url": "/v2/events/4f6c99f3-abf1-4396-b334-651b8160a26a",
+            "created_at": "2016-02-29T19:50:19Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:19Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "275d2a5a-3c90-494c-a0f4-332dcd6edd24",
+            "url": "/v2/events/275d2a5a-3c90-494c-a0f4-332dcd6edd24",
+            "created_at": "2016-02-29T19:50:19Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:19Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "3fa11f51-00cd-49d9-bc28-825bd315e368",
+            "url": "/v2/events/3fa11f51-00cd-49d9-bc28-825bd315e368",
+            "created_at": "2016-02-29T19:50:22Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:50:22Z",
+            "metadata": {
+               "request": {
+                  "state": "STARTED"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "81f28345-d4dc-4aad-ab9f-363889902e8b",
+            "url": "/v2/events/81f28345-d4dc-4aad-ab9f-363889902e8b",
+            "created_at": "2016-02-29T19:56:03Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:56:03Z",
+            "metadata": {
+               "request": {
+                  "route": "60e834b9-d0f6-4558-a04c-85ee1050616d"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "20c9bb3d-5b94-4bde-9efd-66d93a57069a",
+            "url": "/v2/events/20c9bb3d-5b94-4bde-9efd-66d93a57069a",
+            "created_at": "2016-02-29T19:56:04Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:56:04Z",
+            "metadata": {
+               "request": {
+                  "route": "3a6f02ea-4fe4-4a48-810a-274d3c7afcda"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c27f9e68-9fde-460a-b0a7-a293433351e2",
+            "url": "/v2/events/c27f9e68-9fde-460a-b0a7-a293433351e2",
+            "created_at": "2016-02-29T19:56:04Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "017d7f74-c9d5-43cd-b6ea-932b2e75a01f",
+            "actee_type": "app",
+            "actee_name": "apps-manager-green",
+            "timestamp": "2016-02-29T19:56:04Z",
+            "metadata": {
+               "request": {
+                  "route": "11cc9fc0-9d81-409d-94d6-a1fee3445f51"
+               }
+            },
+            "space_guid": "853d26f0-61c7-4cbf-9664-d546f27a9d8b",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "7dc07d00-50cf-4354-9c27-2831d912b7f2",
+            "url": "/v2/events/7dc07d00-50cf-4354-9c27-2831d912b7f2",
+            "created_at": "2016-02-29T19:58:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "b4e09586-044b-418f-9b6c-d194cc1d6740",
+            "actee_type": "app",
+            "actee_name": "66462e00-a7ee-45da-7cf9-142169313b04",
+            "timestamp": "2016-02-29T19:58:46Z",
+            "metadata": {
+               "request": {
+                  "route": "1acc6fa4-ce84-489e-a47a-075834188ba1"
+               }
+            },
+            "space_guid": "17103fe6-198b-4031-aa0d-832841468760",
+            "organization_guid": "6eb2e25b-9940-4490-8376-6c1e671b1a4e"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "8d0d5574-b5aa-4a37-bfcb-895ecbb53c37",
+            "url": "/v2/events/8d0d5574-b5aa-4a37-bfcb-895ecbb53c37",
+            "created_at": "2016-02-29T19:58:52Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "b4e09586-044b-418f-9b6c-d194cc1d6740",
+            "actee_type": "app",
+            "actee_name": "66462e00-a7ee-45da-7cf9-142169313b04",
+            "timestamp": "2016-02-29T19:58:52Z",
+            "metadata": {
+               "request": {
+                  "state": "STARTED"
+               }
+            },
+            "space_guid": "17103fe6-198b-4031-aa0d-832841468760",
+            "organization_guid": "6eb2e25b-9940-4490-8376-6c1e671b1a4e"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "4d99346b-a655-451b-997d-69732e8ae7b2",
+            "url": "/v2/events/4d99346b-a655-451b-997d-69732e8ae7b2",
+            "created_at": "2016-02-29T20:00:55Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "16d22849-9bc5-430d-8ad5-12bfdfcef18c",
+            "actee_type": "app",
+            "actee_name": "018c06ef-d0cc-432e-6f9c-7ba18511bafc",
+            "timestamp": "2016-02-29T20:00:55Z",
+            "metadata": {
+               "request": {
+                  "route": "0c9380c3-b07e-4a10-8427-1a509acf0663"
+               }
+            },
+            "space_guid": "a6bfc2d3-207c-474c-9355-697d6183644b",
+            "organization_guid": "8260c43d-1022-49c9-9355-15dccf682137"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "582d9c72-3d69-41f9-8e07-245582460b89",
+            "url": "/v2/events/582d9c72-3d69-41f9-8e07-245582460b89",
+            "created_at": "2016-02-29T20:01:00Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "16d22849-9bc5-430d-8ad5-12bfdfcef18c",
+            "actee_type": "app",
+            "actee_name": "018c06ef-d0cc-432e-6f9c-7ba18511bafc",
+            "timestamp": "2016-02-29T20:01:00Z",
+            "metadata": {
+               "request": {
+                  "state": "STARTED"
+               }
+            },
+            "space_guid": "a6bfc2d3-207c-474c-9355-697d6183644b",
+            "organization_guid": "8260c43d-1022-49c9-9355-15dccf682137"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f6eab1cd-1013-4199-b412-b68b1f3433d1",
+            "url": "/v2/events/f6eab1cd-1013-4199-b412-b68b1f3433d1",
+            "created_at": "2016-02-29T20:01:42Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "49104a3f-d0d4-4c95-92ac-067fd8572a3f",
+            "actor_type": "user",
+            "actor_name": "smoke_tests",
+            "actee": "16d22849-9bc5-430d-8ad5-12bfdfcef18c",
+            "actee_type": "app",
+            "actee_name": "018c06ef-d0cc-432e-6f9c-7ba18511bafc",
+            "timestamp": "2016-02-29T20:01:42Z",
+            "metadata": {
+               "request": {
+                  "instances": 2
+               }
+            },
+            "space_guid": "a6bfc2d3-207c-474c-9355-697d6183644b",
+            "organization_guid": "8260c43d-1022-49c9-9355-15dccf682137"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b40221f1-0589-48e6-a676-fa98cdafaa05",
+            "url": "/v2/events/b40221f1-0589-48e6-a676-fa98cdafaa05",
+            "created_at": "2016-02-29T20:04:27Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:27Z",
+            "metadata": {
+               "request": {
+                  "health_check_type": "none"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "da3337a6-b1da-4482-82ce-42f67f48ac97",
+            "url": "/v2/events/da3337a6-b1da-4482-82ce-42f67f48ac97",
+            "created_at": "2016-02-29T20:04:39Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "620469bf-0a85-4c75-8ae8-c271ddc2a7af",
+            "actee_type": "app",
+            "actee_name": "app-usage-service-scheduler",
+            "timestamp": "2016-02-29T20:04:39Z",
+            "metadata": {
+               "request": {
+                  "health_check_type": "none"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "14ebadd0-5023-4d27-86ca-b40130e3d76b",
+            "url": "/v2/events/14ebadd0-5023-4d27-86ca-b40130e3d76b",
+            "created_at": "2016-02-29T20:04:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "627420ac-c576-4a39-8477-f570a6c9a98d",
+            "actee_type": "app",
+            "actee_name": "app-usage-service-worker",
+            "timestamp": "2016-02-29T20:04:45Z",
+            "metadata": {
+               "request": {
+                  "health_check_type": "none"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "bd9e950c-ed46-4bed-9819-38f5efd84808",
+            "url": "/v2/events/bd9e950c-ed46-4bed-9819-38f5efd84808",
+            "created_at": "2016-02-29T20:04:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:45Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e3aab7a2-5f9a-43dd-b71e-6d3dfca910b5",
+            "url": "/v2/events/e3aab7a2-5f9a-43dd-b71e-6d3dfca910b5",
+            "created_at": "2016-02-29T20:04:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:45Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "dd36b61a-ed66-4b56-8e23-c553e152a6df",
+            "url": "/v2/events/dd36b61a-ed66-4b56-8e23-c553e152a6df",
+            "created_at": "2016-02-29T20:04:45Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:45Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "55cf3a86-cb32-4503-9f83-04af9b78269d",
+            "url": "/v2/events/55cf3a86-cb32-4503-9f83-04af9b78269d",
+            "created_at": "2016-02-29T20:04:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:46Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "70c7dc43-b79c-41ec-9a97-d3da192d4033",
+            "url": "/v2/events/70c7dc43-b79c-41ec-9a97-d3da192d4033",
+            "created_at": "2016-02-29T20:04:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:46Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9b2fead7-8fcb-4b3c-a2e9-6a4e1248b714",
+            "url": "/v2/events/9b2fead7-8fcb-4b3c-a2e9-6a4e1248b714",
+            "created_at": "2016-02-29T20:04:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:46Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "a8cb405b-6ccf-4ea2-87fe-302e8548e82b",
+            "url": "/v2/events/a8cb405b-6ccf-4ea2-87fe-302e8548e82b",
+            "created_at": "2016-02-29T20:04:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:46Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "29af2133-0b45-4b69-97b3-9bebb6429f37",
+            "url": "/v2/events/29af2133-0b45-4b69-97b3-9bebb6429f37",
+            "created_at": "2016-02-29T20:04:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:46Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ac407594-70f4-493b-bfe2-d7c082aca89e",
+            "url": "/v2/events/ac407594-70f4-493b-bfe2-d7c082aca89e",
+            "created_at": "2016-02-29T20:04:46Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:46Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f264ad5e-d804-429f-bd6b-fd0a23108608",
+            "url": "/v2/events/f264ad5e-d804-429f-bd6b-fd0a23108608",
+            "created_at": "2016-02-29T20:04:47Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:47Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "c162f189-eb3c-477e-8afb-1a1f04240aab",
+            "url": "/v2/events/c162f189-eb3c-477e-8afb-1a1f04240aab",
+            "created_at": "2016-02-29T20:04:47Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:47Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "ce188be6-856d-4939-8f93-1960c8ffad49",
+            "url": "/v2/events/ce188be6-856d-4939-8f93-1960c8ffad49",
+            "created_at": "2016-02-29T20:04:47Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:47Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e30b2b67-07d4-470e-9d15-1e8f4a824f5b",
+            "url": "/v2/events/e30b2b67-07d4-470e-9d15-1e8f4a824f5b",
+            "created_at": "2016-02-29T20:04:47Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:47Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "f84af957-c5f4-4273-b761-f3d009714ad9",
+            "url": "/v2/events/f84af957-c5f4-4273-b761-f3d009714ad9",
+            "created_at": "2016-02-29T20:04:47Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:47Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "4acbb887-156b-4ab4-9308-3e210150a58f",
+            "url": "/v2/events/4acbb887-156b-4ab4-9308-3e210150a58f",
+            "created_at": "2016-02-29T20:04:48Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "8e09f739-7ddc-44b2-a559-95813d1680db",
+            "actee_type": "app",
+            "actee_name": "app-usage-service",
+            "timestamp": "2016-02-29T20:04:48Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "fa1e31da-f6d9-4db0-8551-32d92a1dc005",
+            "url": "/v2/events/fa1e31da-f6d9-4db0-8551-32d92a1dc005",
+            "created_at": "2016-02-29T20:04:48Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.update",
+            "actor": "b5a4c001-bc82-497f-83f0-383c833a3438",
+            "actor_type": "user",
+            "actor_name": "push_apps_manager",
+            "actee": "620469bf-0a85-4c75-8ae8-c271ddc2a7af",
+            "actee_type": "app",
+            "actee_name": "app-usage-service-scheduler",
+            "timestamp": "2016-02-29T20:04:48Z",
+            "metadata": {
+               "request": {
+                  "environment_json": "PRIVATE DATA HIDDEN"
+               }
+            },
+            "space_guid": "4de89a46-0c3c-4751-bcf0-6a24a6563c29",
+            "organization_guid": "5e26786d-c17d-46cf-b12c-2c18b8c3597a"
+         }
+      }
+   ]
+}

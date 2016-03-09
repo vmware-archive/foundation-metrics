@@ -81,7 +81,7 @@ public class Scheduler {
 	}
 
 	@Scheduled(fixedDelay = 60000)
-	public void checkSystemHealth() {
+	public String checkSystemHealth() {
 		StringBuilder errors = new StringBuilder();
 
 		Metrics metrics = metricService.getMetrics();
@@ -105,6 +105,8 @@ public class Scheduler {
 			System.out.println(errors.toString());
 			emailService.sendEmail(errors.toString());
 		}
+		
+		return errors.toString();
 
 	}
 

@@ -34,8 +34,6 @@ public class MetricService {
 		try {
 			objects = connection.queryMBeans(new ObjectName("org.cloudfoundry:*"), null);
 
-			System.out.println("Initial Jobs size is " + objects.size());
-
 			for (ObjectInstance object : objects) {
 				populateMetrics(object, metrics);
 			}
@@ -43,8 +41,6 @@ public class MetricService {
 			e.printStackTrace();
 		}
 
-		int finalSize = metrics.getCustomJobMetrics().size() + metrics.getVmMetrics().size();
-		System.out.println("Final Jobs size is " + finalSize);
 		System.out.println("Metrics - " + metrics);
 
 		return metrics;

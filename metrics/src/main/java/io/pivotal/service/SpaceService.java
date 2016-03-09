@@ -11,6 +11,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class SpaceService {
 	
+	static final String SPACES_API_URI = "/v2/spaces";
+
 	@Autowired
 	CloudFoundryClient cloudFoundryClient;
 	
@@ -22,7 +24,7 @@ public class SpaceService {
 	}
 	
 	public Integer getTotalSpaces() {
-		Map<String, Object> respMap = clientService.getResponseMap("/v2/spaces");
+		Map<String, Object> respMap = clientService.getResponseMap(SPACES_API_URI);
 		Integer totalCount = clientService.getTotalResults(respMap);
 		return totalCount;
 	}

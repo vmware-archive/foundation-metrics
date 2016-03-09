@@ -14,11 +14,12 @@ import io.pivotal.domain.Users;
 @Service
 public class UserService {
 
+	static final String USERS_API_URI = "/v2/users";
 	@Autowired
 	CloudFoundryClientService clientService;
 
 	public Users getAllUsers() {
-		Map<String, Object> respMap = clientService.getResponseMap("/v2/users");
+		Map<String, Object> respMap = clientService.getResponseMap(USERS_API_URI);
 		Integer totalUsersCount = clientService.getTotalResults(respMap);
 
 		List<Map<String, Object>> allResources = clientService.getAllResources(respMap);
@@ -29,7 +30,7 @@ public class UserService {
 	}
 
 	public Integer getTotalUsers() {
-		Map<String, Object> respMap = clientService.getResponseMap("/v2/users");
+		Map<String, Object> respMap = clientService.getResponseMap(USERS_API_URI);
 		Integer totalUsersCount = clientService.getTotalResults(respMap);
 		return totalUsersCount;
 	}

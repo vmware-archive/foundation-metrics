@@ -1,0 +1,197 @@
+{
+   "total_results": 4,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "3c238be8-5417-4297-9e29-8cb10a89215c",
+            "url": "/v2/apps/3c238be8-5417-4297-9e29-8cb10a89215c",
+            "created_at": "2016-03-04T17:38:49Z",
+            "updated_at": "2016-03-08T16:38:03Z"
+         },
+         "entity": {
+            "name": "php-app",
+            "production": false,
+            "space_guid": "96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_guid": "f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "buildpack": null,
+            "detected_buildpack": "php 4.2.1",
+            "environment_json": {},
+            "memory": 128,
+            "instances": 1,
+            "disk_quota": 1024,
+            "state": "STOPPED",
+            "version": "4efe96e4-517c-4674-9027-fb57709b3896",
+            "command": null,
+            "console": false,
+            "debug": null,
+            "staging_task_id": "456cd497635d496c8d5531f1bb80dc03",
+            "package_state": "FAILED",
+            "health_check_type": "port",
+            "health_check_timeout": 60,
+            "staging_failed_reason": "StagingError",
+            "staging_failed_description": "Staging error: staging failed",
+            "diego": true,
+            "docker_image": null,
+            "package_updated_at": "2016-03-04T17:38:54Z",
+            "detected_start_command": "$HOME/.bp/bin/start",
+            "enable_ssh": true,
+            "docker_credentials_json": {
+               "redacted_message": "[PRIVATE DATA HIDDEN]"
+            },
+            "ports": null,
+            "space_url": "/v2/spaces/96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_url": "/v2/stacks/f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "events_url": "/v2/apps/3c238be8-5417-4297-9e29-8cb10a89215c/events",
+            "service_bindings_url": "/v2/apps/3c238be8-5417-4297-9e29-8cb10a89215c/service_bindings",
+            "routes_url": "/v2/apps/3c238be8-5417-4297-9e29-8cb10a89215c/routes"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "fad4670d-6de2-4d82-aa3a-4d2133b6cfce",
+            "url": "/v2/apps/fad4670d-6de2-4d82-aa3a-4d2133b6cfce",
+            "created_at": "2016-03-08T16:26:47Z",
+            "updated_at": "2016-03-08T16:35:25Z"
+         },
+         "entity": {
+            "name": "word-myservice",
+            "production": false,
+            "space_guid": "96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_guid": "f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "buildpack": null,
+            "detected_buildpack": "php 4.2.1",
+            "environment_json": {},
+            "memory": 1024,
+            "instances": 1,
+            "disk_quota": 1024,
+            "state": "STARTED",
+            "version": "dc952dc7-2c83-4af5-9756-706d81b6d67e",
+            "command": null,
+            "console": false,
+            "debug": null,
+            "staging_task_id": "3a0c1ff55e9e45c9bba7bb8e741a56b0",
+            "package_state": "STAGED",
+            "health_check_type": "port",
+            "health_check_timeout": null,
+            "staging_failed_reason": null,
+            "staging_failed_description": null,
+            "diego": true,
+            "docker_image": null,
+            "package_updated_at": "2016-03-08T16:34:38Z",
+            "detected_start_command": "$HOME/.bp/bin/start",
+            "enable_ssh": true,
+            "docker_credentials_json": {
+               "redacted_message": "[PRIVATE DATA HIDDEN]"
+            },
+            "ports": null,
+            "space_url": "/v2/spaces/96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_url": "/v2/stacks/f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "events_url": "/v2/apps/fad4670d-6de2-4d82-aa3a-4d2133b6cfce/events",
+            "service_bindings_url": "/v2/apps/fad4670d-6de2-4d82-aa3a-4d2133b6cfce/service_bindings",
+            "routes_url": "/v2/apps/fad4670d-6de2-4d82-aa3a-4d2133b6cfce/routes"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "d9020873-1589-4b29-888c-cf6ff37e0d4c",
+            "url": "/v2/apps/d9020873-1589-4b29-888c-cf6ff37e0d4c",
+            "created_at": "2016-03-08T17:45:37Z",
+            "updated_at": "2016-03-08T17:50:36Z"
+         },
+         "entity": {
+            "name": "metrics",
+            "production": false,
+            "space_guid": "96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_guid": "f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "buildpack": "java_buildpack_offline",
+            "detected_buildpack": "",
+            "environment_json": {
+               "cf.password": "d76ce2d7fbe1deeb4e7e",
+               "cf.target": "https://api.system.davidturanski.com",
+               "cf.username": "admin",
+               "jmx.host": "10.0.16.78",
+               "jmx.password": "jmxadmin",
+               "jmx.port": 44444,
+               "jmx.username": "jmxadmin",
+               "mail.protocol": "smtp"
+            },
+            "memory": 1024,
+            "instances": 1,
+            "disk_quota": 1024,
+            "state": "STARTED",
+            "version": "5735e59c-cb8a-4067-ba52-01ae5ec60da5",
+            "command": null,
+            "console": false,
+            "debug": null,
+            "staging_task_id": "ad1469f779a24bf69e2015055116c1cf",
+            "package_state": "STAGED",
+            "health_check_type": "port",
+            "health_check_timeout": null,
+            "staging_failed_reason": null,
+            "staging_failed_description": null,
+            "diego": true,
+            "docker_image": null,
+            "package_updated_at": "2016-03-08T17:49:45Z",
+            "detected_start_command": "CALCULATED_MEMORY=$($PWD/.java-buildpack/open_jdk_jre/bin/java-buildpack-memory-calculator-2.0.1_RELEASE -memorySizes=metaspace:64m.. -memoryWeights=heap:75,metaspace:10,native:10,stack:5 -memoryInitials=heap:100%,metaspace:100% -totMemory=$MEMORY_LIMIT) && JAVA_OPTS=\"-Djava.io.tmpdir=$TMPDIR -XX:OnOutOfMemoryError=$PWD/.java-buildpack/open_jdk_jre/bin/killjava.sh $CALCULATED_MEMORY\" && SERVER_PORT=$PORT eval exec $PWD/.java-buildpack/open_jdk_jre/bin/java $JAVA_OPTS -cp $PWD/.:$PWD/.java-buildpack/spring_auto_reconfiguration/spring_auto_reconfiguration-1.10.0_RELEASE.jar org.springframework.boot.loader.JarLauncher",
+            "enable_ssh": true,
+            "docker_credentials_json": {
+               "redacted_message": "[PRIVATE DATA HIDDEN]"
+            },
+            "ports": null,
+            "space_url": "/v2/spaces/96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_url": "/v2/stacks/f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "events_url": "/v2/apps/d9020873-1589-4b29-888c-cf6ff37e0d4c/events",
+            "service_bindings_url": "/v2/apps/d9020873-1589-4b29-888c-cf6ff37e0d4c/service_bindings",
+            "routes_url": "/v2/apps/d9020873-1589-4b29-888c-cf6ff37e0d4c/routes"
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9105d41a-6f40-4ba4-baef-814402a7a9fa",
+            "url": "/v2/apps/9105d41a-6f40-4ba4-baef-814402a7a9fa",
+            "created_at": "2016-03-08T17:57:50Z",
+            "updated_at": "2016-03-08T17:58:25Z"
+         },
+         "entity": {
+            "name": "metrics-ui",
+            "production": false,
+            "space_guid": "96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_guid": "f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "buildpack": "staticfile_buildpack",
+            "detected_buildpack": "",
+            "environment_json": {},
+            "memory": 1024,
+            "instances": 1,
+            "disk_quota": 1024,
+            "state": "STARTED",
+            "version": "e270607e-9d20-4730-bf3d-c7eb8b46e45e",
+            "command": null,
+            "console": false,
+            "debug": null,
+            "staging_task_id": "92d6949ea4a3467d8a9f0d26416770a4",
+            "package_state": "STAGED",
+            "health_check_type": "port",
+            "health_check_timeout": null,
+            "staging_failed_reason": null,
+            "staging_failed_description": null,
+            "diego": true,
+            "docker_image": null,
+            "package_updated_at": "2016-03-08T17:57:54Z",
+            "detected_start_command": "sh boot.sh",
+            "enable_ssh": true,
+            "docker_credentials_json": {
+               "redacted_message": "[PRIVATE DATA HIDDEN]"
+            },
+            "ports": null,
+            "space_url": "/v2/spaces/96d41513-3a99-4022-9dd0-bc0f172428a9",
+            "stack_url": "/v2/stacks/f6aa65b9-fec7-42c1-9821-2a57136bbe87",
+            "events_url": "/v2/apps/9105d41a-6f40-4ba4-baef-814402a7a9fa/events",
+            "service_bindings_url": "/v2/apps/9105d41a-6f40-4ba4-baef-814402a7a9fa/service_bindings",
+            "routes_url": "/v2/apps/9105d41a-6f40-4ba4-baef-814402a7a9fa/routes"
+         }
+      }
+   ]
+}

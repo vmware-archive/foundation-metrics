@@ -1,0 +1,92 @@
+{
+   "total_results": 6,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "12921a8b-7a34-4af8-8d61-40109efbfc23",
+            "url": "/v2/service_brokers/12921a8b-7a34-4af8-8d61-40109efbfc23",
+            "created_at": "2016-02-29T20:23:33Z",
+            "updated_at": null
+         },
+         "entity": {
+            "name": "app-autoscaler",
+            "broker_url": "https://autoscale.sys.homelab.io",
+            "auth_username": "3ac154ee02ff3d32",
+            "space_guid": null
+         }
+      },
+      {
+         "metadata": {
+            "guid": "9e52b15d-f3f5-4039-bffb-f9e066a846fe",
+            "url": "/v2/service_brokers/9e52b15d-f3f5-4039-bffb-f9e066a846fe",
+            "created_at": "2016-02-29T20:45:34Z",
+            "updated_at": null
+         },
+         "entity": {
+            "name": "p-rabbitmq",
+            "broker_url": "https://pivotal-rabbitmq-broker.sys.homelab.io",
+            "auth_username": "admin",
+            "space_guid": null
+         }
+      },
+      {
+         "metadata": {
+            "guid": "e31003e3-3405-4adc-8b8e-e184b2c82270",
+            "url": "/v2/service_brokers/e31003e3-3405-4adc-8b8e-e184b2c82270",
+            "created_at": "2016-02-29T21:57:14Z",
+            "updated_at": null
+         },
+         "entity": {
+            "name": "p-mysql",
+            "broker_url": "https://p-mysql.sys.homelab.io:443",
+            "auth_username": "de93e56c2294d8a9994e",
+            "space_guid": null
+         }
+      },
+      {
+         "metadata": {
+            "guid": "5513d78c-2c8c-4e9f-bd48-51a3cc7e5d30",
+            "url": "/v2/service_brokers/5513d78c-2c8c-4e9f-bd48-51a3cc7e5d30",
+            "created_at": "2016-02-29T22:17:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "name": "p-redis",
+            "broker_url": "https://redis-broker.apps.homelab.io",
+            "auth_username": "admin",
+            "space_guid": null
+         }
+      },
+      {
+         "metadata": {
+            "guid": "b492a212-7f58-45af-bac6-01279803e517",
+            "url": "/v2/service_brokers/b492a212-7f58-45af-bac6-01279803e517",
+            "created_at": "2016-02-29T22:58:07Z",
+            "updated_at": null
+         },
+         "entity": {
+            "name": "p-riakcs",
+            "broker_url": "https://p-riakcs-broker.sys.homelab.io:443",
+            "auth_username": "cc",
+            "space_guid": null
+         }
+      },
+      {
+         "metadata": {
+            "guid": "be0ad882-6bbd-4af3-9752-57816d5bdc14",
+            "url": "/v2/service_brokers/be0ad882-6bbd-4af3-9752-57816d5bdc14",
+            "created_at": "2016-02-29T23:22:15Z",
+            "updated_at": null
+         },
+         "entity": {
+            "name": "p-spring-cloud-services",
+            "broker_url": "https://spring-cloud-broker.apps.homelab.io",
+            "auth_username": "e3d5ea76b22d2b6feba1",
+            "space_guid": null
+         }
+      }
+   ]
+}

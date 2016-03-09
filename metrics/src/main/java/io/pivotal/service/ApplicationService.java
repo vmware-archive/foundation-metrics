@@ -15,6 +15,8 @@ import io.pivotal.domain.Total;
 @Service
 public class ApplicationService {
 
+	static final String APPS_API_URI = "/v2/apps";
+
 	@Autowired
 	CloudFoundryClient cloudFoundryClient;
 
@@ -24,7 +26,7 @@ public class ApplicationService {
 	@SuppressWarnings("unchecked")
 	public List<Application> getApplications() {
 		List<Application> applications = new ArrayList<Application>();
-		Map<String, Object> respMap = clientService.getResponseMap("/v2/apps");
+		Map<String, Object> respMap = clientService.getResponseMap(APPS_API_URI);
 		List<Map<String, Object>> allResources = clientService.getAllResources(respMap);
 
 		for (Map<String, Object> resource : allResources) {
@@ -54,7 +56,7 @@ public class ApplicationService {
 
 	@SuppressWarnings("unchecked")
 	public void populateAppCounts(List<Total> totals) {
-		Map<String, Object> respMap = clientService.getResponseMap("/v2/apps");
+		Map<String, Object> respMap = clientService.getResponseMap(APPS_API_URI);
 		List<Map<String, Object>> allResources = clientService.getAllResources(respMap);
 		Integer runningAIs = 0;
 		Integer totalAIs = 0;

@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class OrgService {
+	static String ORG_API_URI = "/v2/organizations";
+	
 	@Autowired
 	CloudFoundryClient cloudFoundryClient;
 	
@@ -22,7 +24,7 @@ public class OrgService {
 	}
 
 	public Integer getTotalOrgs() {
-		Map<String, Object> respMap = clientService.getResponseMap("/v2/organizations");
+		Map<String, Object> respMap = clientService.getResponseMap(ORG_API_URI);
 		Integer totalCount = clientService.getTotalResults(respMap);
 		return totalCount;
 	}

@@ -1,0 +1,31 @@
+{
+   "total_results": 1,
+   "total_pages": 1,
+   "prev_url": null,
+   "next_url": null,
+   "resources": [
+      {
+         "metadata": {
+            "guid": "a6b60e0a-122a-4a4b-b4f5-81ac2251a782",
+            "url": "/v2/events/a6b60e0a-122a-4a4b-b4f5-81ac2251a782",
+            "created_at": "2016-03-09T02:26:56Z",
+            "updated_at": null
+         },
+         "entity": {
+            "type": "audit.app.ssh-authorized",
+            "actor": "01506160-90c5-4a95-8d59-06eab34ef788",
+            "actor_type": "user",
+            "actor_name": "rjain@pivotal.io",
+            "actee": "d10bd0b9-e396-4b1e-a1ad-0101fbbbffa5",
+            "actee_type": "app",
+            "actee_name": "metrics",
+            "timestamp": "2016-03-09T02:26:56Z",
+            "metadata": {
+               "index": "0"
+            },
+            "space_guid": "31eb2c46-ef4a-472f-8a8f-5675b8bd0665",
+            "organization_guid": "8f27e65d-8e2a-4d74-8c79-502ceb2ed5e3"
+         }
+      }
+   ]
+}
